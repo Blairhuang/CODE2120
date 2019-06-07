@@ -18,7 +18,7 @@ from django.urls import include, path, re_path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'e/', include('example.urls')),
-    path(r'wombo/', include('wombat.urls')),
+    #path(r'e/', include('example.urls')),
+    path(r'blog/', include('blog.urls')),
     #####WHATEVER
 ]
